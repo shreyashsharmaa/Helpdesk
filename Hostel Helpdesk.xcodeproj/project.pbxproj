@@ -12,6 +12,7 @@
 		89B56C90209363A2003B3A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B56C8E209363A2003B3A17 /* Main.storyboard */; };
 		89B56C92209363A4003B3A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B56C91209363A4003B3A17 /* Assets.xcassets */; };
 		89B56C95209363A4003B3A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B56C93209363A4003B3A17 /* LaunchScreen.storyboard */; };
+		89B56C9F2093683A003B3A17 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B56C9E2093683A003B3A17 /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89B56C91209363A4003B3A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B56C94209363A4003B3A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B56C96209363A4003B3A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B56C9E2093683A003B3A17 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		89B56C89209363A2003B3A17 /* Hostel Helpdesk */ = {
 			isa = PBXGroup;
 			children = (
-				89B56C8A209363A2003B3A17 /* AppDelegate.swift */,
-				89B56C8C209363A2003B3A17 /* ViewController.swift */,
+				89B56CA020936840003B3A17 /* Controller */,
+				89B56CA120936855003B3A17 /* LoginTextField */,
 				89B56C8E209363A2003B3A17 /* Main.storyboard */,
+				89B56C8A209363A2003B3A17 /* AppDelegate.swift */,
 				89B56C91209363A4003B3A17 /* Assets.xcassets */,
 				89B56C93209363A4003B3A17 /* LaunchScreen.storyboard */,
 				89B56C96209363A4003B3A17 /* Info.plist */,
 			);
 			path = "Hostel Helpdesk";
+			sourceTree = "<group>";
+		};
+		89B56CA020936840003B3A17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89B56C8C209363A2003B3A17 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		89B56CA120936855003B3A17 /* LoginTextField */ = {
+			isa = PBXGroup;
+			children = (
+				89B56C9E2093683A003B3A17 /* LoginTextField.swift */,
+			);
+			path = LoginTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B56C9F2093683A003B3A17 /* LoginTextField.swift in Sources */,
 				89B56C8D209363A2003B3A17 /* ViewController.swift in Sources */,
 				89B56C8B209363A2003B3A17 /* AppDelegate.swift in Sources */,
 			);
